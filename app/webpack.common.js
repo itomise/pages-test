@@ -12,7 +12,7 @@ const webpack_config = {
     main: [path.resolve(__dirname, './src/javascripts/entry.js')],
   },
   output: {
-    path: path.resolve(__dirname, '../htdocs' + rootDir),
+    path: path.resolve(__dirname, '../' + rootDir),
     filename: 'js/[name].js'
   },
   module: {

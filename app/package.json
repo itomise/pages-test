@@ -2,7 +2,7 @@
   "name": "static-site-webpack",
   "scripts": {
     "start": "node scripts/server.js",
-    "build": "rimraf ../htdocs && webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js",
     "dev-server": "webpack-dev-server --config webpack.dev.js"
   },
   "license": "MIT",
