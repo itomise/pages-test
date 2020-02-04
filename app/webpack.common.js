@@ -3,7 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 // ルートディレクトリの設定  - - - - - - - - - - - - - - - - - - - - -
 
-const rootDir = ''
+const rootDir = '/pages-test'
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -12,7 +12,7 @@ const webpack_config = {
     main: [path.resolve(__dirname, './src/javascripts/entry.js')],
   },
   output: {
-    path: path.resolve(__dirname, '../' + rootDir),
+    path: path.resolve(__dirname, '../htdocs' + rootDir),
     filename: 'js/[name].js'
   },
   module: {
