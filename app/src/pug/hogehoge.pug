@@ -1,0 +1,13 @@
+extends ./templates/_layout
+
+include ./components/_button
+
+block variables
+  -
+    var appId = 'test';  // JSのアプリ起動に使われるID名（使わない場合は空文字）
+    var title = 'テスト';
+    var description = '説明';
+
+block content
+  p This is hoge page!
+  +button
