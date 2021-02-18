@@ -10,6 +10,7 @@ const rootDir = '/pages-test'
 const webpack_config = {
   entry: {
     main: [path.resolve(__dirname, './src/javascripts/entry.js')],
+    another: [path.resolve(__dirname, './src/javascripts/another.js')]
   },
   output: {
     path: path.resolve(__dirname, '../htdocs' + rootDir),

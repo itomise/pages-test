@@ -15,3 +15,6 @@ class Test {
     })
   }
 }
+import $ from 'jquery'
+
+console.log($)
